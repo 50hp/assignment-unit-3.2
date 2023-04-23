@@ -57,7 +57,7 @@ console.log('---- 3.a ----');
 console.log('Some stars using while:');
 let x=0 
 
-while (x < 5) {
+while (x < stars.length) {
     console.log(stars[x]);
     x++;
 }
@@ -67,7 +67,7 @@ console.log('---- 3.b ----');
 console.log('count from 0 to 5');
 let b = 0
 
-while (b < 5) {
+while (b <= 5) {
     console.log(b);
     b++;
 }
@@ -77,7 +77,7 @@ console.log('---- 3.c ----');
 console.log('count backwards from 10 to 5');
 let c = 10
 
-while (c > 4) {
+while (c >= 5) {
     console.log(c);
     c--;
 }
