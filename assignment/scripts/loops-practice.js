@@ -45,8 +45,8 @@ let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
 // 2.a. TODO: Write a for of loop to console.log each star in the 'stars' array
 console.log('---- 2.a----');
 console.log('Some stars:');
-for (let i=0; i<5; i++) {
-    console.log(stars[i]);
+for (let i of stars) {
+    console.log(i);
 }
 
 // 3. While loops  
